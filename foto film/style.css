@@ -1,0 +1,97 @@
+/*RESET*/
+
+body {
+    background-color: #333;
+    margin: 0;
+}
+
+ul {
+    padding:0;
+    margin: 0;
+    list-style: none;
+    
+
+}
+
+
+
+/*LAYOUT*/
+
+.origin {
+    width: 0px;
+    height: 0px;
+    background-color: blue;
+
+    position: absolute;  /* se masoara fata de fereseatra*/
+    top: 50%;
+    left: 33%;
+}
+
+.origin .film {
+    /* background: radial-gradient(transparent 49%, black 51%); */
+    background-size: 20px 25px;
+    /* 0% (transparent)............> 100% (black) end */
+    width: 5000px;
+    font-size: 0; /* trick ca sa dispara spatiu intre blocuri la display-block*/
+
+    position: relative;
+    left: -33vw;
+    top: -178px;
+
+}
+
+.origin .film li {
+    display: inline-block; /* inline block face elementele sa se comporte ca text, de aia se observa un pic de spatiu intre blocuri*/
+    /* padding: 3vh 1vw; */
+}
+
+.origin .film li img {
+    
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    
+    border-image: url(images/film.png) 100 round;
+    
+    
+
+
+   /*HW1: Use visibility instead of opacity 
+      HW2: use border-image */
+
+
+       /* opacity: 0;  */
+    /* visibility: hidden; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.v-guide {
+    position: absolute;
+    height: 100vh;
+    top: -50vh;
+    left:0;
+    width: 1px;
+    background-color: #555;
+}
+
+.h-guide {
+    position: absolute;
+    left: -33vw;
+    top: 0; 
+    width: 100vw;
+    height: 1px;
+    background-color: #555;
+}

@@ -1,0 +1,771 @@
+body {
+    
+    background-color: #5089C0;
+}
+
+.container .globe {
+    position: absolute;
+    top: 45px;
+    width: 700px;
+    height: 700px;
+    border: 10px solid #A4CDE1;
+    border-radius: 100%;
+    background-image:radial-gradient(#448DC0,#C3DCEA);
+    
+}
+
+.container .globe .flakes {
+    position: relative;
+    left: 40px;
+    width: 650px;
+    height: 650px;
+    background-color: transparent;
+    border-radius: 100%;
+}
+
+
+
+.container .globe .flakes .big-flake {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: #FAFEFE;
+    border-radius: 100%;
+    opacity: 0.8;
+    
+
+}
+
+.container .globe .flakes .big-flake:nth-child(1) {
+    top: 5px;
+    left: 100px;
+}
+.container .globe .flakes .big-flake:nth-child(2) {
+    top: 8px;
+    left: 360px;
+}
+.container .globe .flakes .big-flake:nth-child(3) {
+    top: 45px;
+    left: 480px;
+}
+.container .globe .flakes .big-flake:nth-child(4) {
+    top: 85px;
+    left: 100px;
+}
+.container .globe .flakes .big-flake:nth-child(5) {
+    top: 295px;
+    left: 100px;
+}
+.container .globe .flakes .big-flake:nth-child(6) {
+    top: 275px;
+    left: 490px;
+}
+.container .globe .flakes .big-flake:nth-child(7) {
+    top: 155px;
+    left: 270px;
+}
+.container .globe .flakes .big-flake:nth-child(8) {
+    top: -40px;
+    left: 300px;
+}
+.container .globe .flakes .big-flake:nth-child(9) {
+    top: 300px;
+    left: 400px;
+}
+.container .globe .flakes .big-flake:nth-child(10) {
+    top: 390px;
+    left: 200px;
+}
+
+.container .globe .flakes .small-flake {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+.container .globe .level-1 {
+    position: absolute;
+    top: 500px;
+    left: 230px;
+    width: 220px;
+    height: 100px;
+    background-color: #7A7EA4;
+   
+}
+
+.container .globe .level-1 div:nth-child(1) {
+    position: absolute;
+    left: -3px;
+    top: -8px;
+    width: 226px;
+    height: 8px;
+    background-color: #E0E4E8;
+    box-shadow: 2px 3px 5px 2px #555C73;
+    border-radius: 1px;;
+}
+
+.container .globe .level-1 div:nth-child(2) {
+    position: absolute;
+    left: -8px;
+    top: -23px;
+    width: 236px;
+    height: 15px;
+    background-color: #E0E4E8;
+    box-shadow: 2px 3px 5px 2px #555C73;
+    border-radius: 1px;
+}
+
+.container .globe .level-2 {
+    position: absolute;
+    top: 379px;
+    left: 230px;
+    width: 220px;
+    height: 100px;
+    background-color: #555C73;
+   
+}
+
+.container .globe .level-2 .w1 {
+    position: relative;
+    left: 12px;
+    top: 6px;
+    width: 40px;
+    height: 80px;
+    border: 1px solid black;
+    background-color: #767c81;
+    
+}
+
+.container .globe .level-2 .w1 div:nth-child(1) {
+    position: absolute;
+    top: 56px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #C9A256;
+    
+}
+
+.container .globe .level-2 .w1 div:nth-child(2) {
+    position: absolute;
+    top: 56px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #C9A256;
+}
+
+.container .globe .level-2 .w1 div:nth-child(3) {
+    position: absolute;
+    top: 30px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #C9A256;
+}
+
+.container .globe .level-2 .w1 div:nth-child(4) {
+    position: absolute;
+    top: 30px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #C9A256;
+}
+
+.container .globe .level-2 .w1 div:nth-child(5) {
+    position: absolute;
+    top: 3px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #C9A256;
+}
+
+.container .globe .level-2 .w1 div:nth-child(6) {
+    position: absolute;
+    top: 3px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-image: linear-gradient(#EDD252, #C9A256);
+    
+}
+
+.container .globe .level-2 .w2 {
+    position: relative;
+    left: 90px;
+    top: -75px;
+    width: 40px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.container .globe .level-2 .w2 div:nth-child(1) {
+    position: absolute;
+    top: 56px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-2 .w2 div:nth-child(2) {
+    position: absolute;
+    top: 56px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-2 .w2 div:nth-child(3) {
+    position: absolute;
+    top: 30px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-2 .w2 div:nth-child(4) {
+    position: absolute;
+    top: 30px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-2 .w2 div:nth-child(5) {
+    position: absolute;
+    top: 3px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-2 .w2 div:nth-child(6) {
+    position: absolute;
+    top: 3px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-2 .w3 {
+    position: relative;
+    left: 170px;
+    top: -156px;
+    width: 40px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.container .globe .level-2 .w3 div:nth-child(1) {
+    position: absolute;
+    top: 56px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-2 .w3 div:nth-child(2) {
+    position: absolute;
+    top: 56px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-2 .w3 div:nth-child(3) {
+    position: absolute;
+    top: 30px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-2 .w3 div:nth-child(4) {
+    position: absolute;
+    top: 30px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-2 .w3 div:nth-child(5) {
+    position: absolute;
+    top: 3px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-2 .w3 div:nth-child(6) {
+    position: absolute;
+    top: 3px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-2 div:nth-child(1) {
+
+    position: absolute;
+    left: -3px;
+    top: -8px;
+    width: 226px;
+    height: 8px;
+    background-color: #E0E4E8;
+    box-shadow: 2px 3px 5px 2px #555C73;
+    border-radius: 1px;;
+}
+
+.container .globe .level-2 div:nth-child(2) {
+    position: absolute;
+    left: -8px;
+    top: -23px;
+    width: 236px;
+    height: 15px;
+    background-color: #E0E4E8;
+    box-shadow: 2px 3px 5px 2px #555C73;
+    border-radius: 1px;;
+}
+
+
+
+.container .globe .level-3 {
+    position: absolute;
+    top: 256px;
+    left: 230px;
+    width: 220px;
+    height: 100px;
+    background-color: #555C73;
+   
+}
+
+.container .globe .level-3 .w1 {
+    position: relative;
+    left: 12px;
+    top: 6px;
+    width: 40px;
+    height: 80px;
+    border: 1px solid black;
+    background-color: #767c81;
+    
+}
+
+.container .globe .level-3 .w1 div:nth-child(1) {
+    position: absolute;
+    top: 56px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+    
+}
+
+.container .globe .level-3 .w1 div:nth-child(2) {
+    position: absolute;
+    top: 56px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-3 .w1 div:nth-child(3) {
+    position: absolute;
+    top: 30px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-3 .w1 div:nth-child(4) {
+    position: absolute;
+    top: 30px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-3 .w1 div:nth-child(5) {
+    position: absolute;
+    top: 3px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-3 .w1 div:nth-child(6) {
+    position: absolute;
+    top: 3px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+    
+}
+
+.container .globe .level-3 .w2 {
+    position: relative;
+    left: 90px;
+    top: -75px;
+    width: 40px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.container .globe .level-3 .w2 div:nth-child(1) {
+    position: absolute;
+    top: 56px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-3 .w2 div:nth-child(2) {
+    position: absolute;
+    top: 56px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-3 .w2 div:nth-child(3) {
+    position: absolute;
+    top: 30px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-3 .w2 div:nth-child(4) {
+    position: absolute;
+    top: 30px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-3 .w2 div:nth-child(5) {
+    position: absolute;
+    top: 3px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-3 .w2 div:nth-child(6) {
+    position: absolute;
+    top: 3px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #7A7FA6;
+}
+
+.container .globe .level-3 .w3 {
+    position: relative;
+    left: 170px;
+    top: -156px;
+    width: 40px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.container .globe .level-3 .w3 div:nth-child(1) {
+    position: absolute;
+    top: 56px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #C9A256;
+}
+
+.container .globe .level-3 .w3 div:nth-child(2) {
+    position: absolute;
+    top: 56px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #C9A256;
+}
+
+.container .globe .level-3 .w3 div:nth-child(3) {
+    position: absolute;
+    top: 30px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #C9A256;
+}
+
+.container .globe .level-3 .w3 div:nth-child(4) {
+    position: absolute;
+    top: 30px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #C9A256;
+}
+
+.container .globe .level-3 .w3 div:nth-child(5) {
+    position: absolute;
+    top: 3px;
+    left: 21px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #C9A256;
+}
+
+.container .globe .level-3 .w3 div:nth-child(6) {
+    position: absolute;
+    top: 3px;
+    left: 1.5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #EDD252;
+}
+
+.container .globe .level-4 {
+    position: relative;
+    left: 220px;
+    top: 155px;
+    width: 240px;
+    height: 100px;
+    background-color: #D0D5F2;
+    border-radius: 7px;
+    box-shadow: 2px 3px 5px 2px #555C73;
+
+
+}
+
+.container .globe .level-4 div {
+    position: absolute;
+    top: 77px;
+    left: 5px;
+    width: 230px;
+    height: 20px;
+    background-color: #B0B6DA;
+    border-radius: 8px;;
+}
+
+.container .globe .lamp {
+    position: absolute;
+    left: 35px;
+}
+
+.container .globe .lamp .lev1 {
+    position: relative;
+    left: 100px;
+    top: 364px;
+
+    width: 30px;
+    height: 60px;
+    background-color: #555C73;
+    /* border-radius: 5px; */
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+
+}
+
+.container .globe .lamp .lev2 {
+    position: absolute;
+    left: 108px;
+    top: 269px;
+    
+    width: 12px;
+    height: 140px;
+    background-color: #555C73;
+
+
+}
+
+.container .globe .lamp .lev2 .lev3 {
+    position: absolute;
+    top: -8px;
+    left: -3px;
+    width: 18px;
+    height: 8px;
+    background-color: #555C73;
+    border-radius: 2px;;
+}
+
+.container .globe .lamp .lev2 .lev4 {
+    position: absolute;
+    top: -57px;
+    left: -20px;
+    width: 50px;
+    height: 50px;
+    background-color: #555C73;
+    border-radius: 100%;
+
+}
+
+.container .globe .lamp .lev2 .lev4 .light {
+    position: absolute;
+    left: 11px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: #C3C8DD;
+    border-radius: 100%;
+    box-shadow: 1px 1px 80px 40px #C3C8DD;
+}
+
+.container .globe .shade {
+    position: absolute;
+    top: 45px;
+    left: -45px; 
+    width: 600px;
+    height: 600px;
+    border-left: 35px solid #c6e5f7;
+    border-radius: 100%;
+    transform: rotateY(-35deg);
+
+}
+
+.container .stand div:nth-child(1) {
+    position: absolute;
+    left: 115px;
+    top: 690px;
+    width: 500px;
+    height: 24px;
+    background-image: radial-gradient(#733F2D, #2F2219);
+    border-radius: 10px;
+}
+
+.container .stand div:nth-child(2) {
+    position: absolute;
+    left: 115px;
+    top: 714px;
+    width: 500px;
+    height: 24px;
+    background-image: radial-gradient(#733F2D, #2F2219);
+    border-radius: 10px;
+}
+
+.container .stand div:nth-child(3){
+    position: absolute;
+    left: 99px;
+    top: 736px;
+    width: 490px;height: 0;
+    border-bottom: 170px solid #2F2219 ;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+}
+
+.container .stand div:nth-child(4) {
+    position: absolute;
+    left: 70px;
+    top: 902px;
+    width: 580px;
+    height: 64px;
+    background-image: radial-gradient(#733F2D, #2F2219);
+    border-radius: 10px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 2px 0px 3px 2px #2F2219;
+}
+
+.container .stand div:nth-child(5) {
+    position: absolute;
+    left: 75px;
+    top: 964px;
+    width: 570px;
+    height: 24px;
+    background-image: radial-gradient(#733F2D, #2F2219);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 0px 3px 3px #2F2219;
+}
+
+.container .snow div:nth-child(1) {
+    position: absolute;
+    top: 560px;
+    left: 126px;
+    width: 250px;
+    height: 120px;
+    background-color: rgb(216, 238, 241);
+    border-radius: 50%;
+    transform:skewX(15deg);
+    z-index: 0;
+
+}
+
+.container .snow div:nth-child(2) {
+    position: absolute;
+    top: 568px;
+    left: 325px;
+    width: 250px;
+    height: 120px;
+    background-color: rgb(216, 238, 241);
+    border-radius: 50%;
+    transform:skewX(-48deg);
+    z-index: 0;
+
+}
