@@ -1,0 +1,161 @@
+body {
+    --film-color: #0009;
+    --main-bg-dark-color:#2c0901;
+    --main-bg-light-color:#c77107;
+}
+
+
+/*RESET*/
+
+body {
+    /*HW1- move gradient center to 1/3*/
+    /*HW2 - additional layer + gradient + blending - lumina sa cada pe 1/3  ,*/
+
+    background:
+        
+            radial-gradient(circle at 30% 50%,
+                  var(--main-bg-light-color),
+                  var(--main-bg-dark-color)),
+            url(images/wood-tex.jpg);
+    background-blend-mode:soft-light;
+    background-size: cover cover;
+    height: 100vh;
+    margin: 0;
+}
+
+ul {
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
+
+
+
+/*LAYOUT*/
+
+.cover {
+    width: calc( 7 * (2 * 1vw + 400px));
+    height: 100%;
+    background: radial-gradient(circle at 30% 50%, transparent 15%, #fff8 40%);
+    position:absolute;
+    z-index: 1;
+}
+
+.origin {
+    width: 0px;
+    height: 0px;
+    background-color: blue;
+    position: absolute;  /* se masoara fata de fereseatra*/
+    top: 50%;
+    left: 33%;
+    
+}
+
+.origin .film {
+
+     /* BORDER IMAGE METHOD */
+  /* border-image-source: radial-gradient(transparent 49%, black 51%);
+  border-image-width: 30px;
+  border-style: solid;
+  border-image-slice:;
+  border-image-repeat: round; 
+   */
+  
+
+    /* MULTIPLE BACKGROUND METHOD, position top & bottom */
+    /* 0% (transparent)............> 100% (black) end */
+
+
+    /* background: radial-gradient(transparent 49%, black 51%) repeat-x,
+                radial-gradient(transparent 49%, black 51%) repeat-x; 
+    background-position: top, bottom; */
+    
+    
+    background-size: 20px 30px; /* 20px 30px; */
+    filter: drop-shadow(1vw 3vh .5vh var(--film-color));
+       /* USING CSS calc ()*/
+
+    width: calc( 7 * (2 * 1vw + 400px));
+    font-size: 0;
+     /*trick ca sa dispara spatiu intre blocuri la display-block*/
+    position: relative;
+    left: -33vw;
+    top: -178px;
+    z-index: -1;
+}
+
+.origin .film::before {
+    content: "";
+    height: 3vh;
+    display: block;
+    background: radial-gradient(transparent 49%, var(--film-color) 51%);
+    background-size: 2vw 100%;
+}
+
+.origin .film::after {
+    content: "";
+    height: 3vh;
+    display: block;
+    background: radial-gradient(transparent 49%, var(--film-color) 51%);
+    background-size: 2vw 100%;
+}
+
+
+.origin .film li {
+ display: inline-block; /* inline block face elementele sa se comporte ca text, de aia se observa un pic de spatiu intre blocuri*/
+ padding: 0 1vw;
+ background: var(--film-color);
+}
+
+.origin .film li img {
+
+ /* BORDER IMAGE URL
+ 
+ border-top: 30px solid transparent;
+ border-bottom: 30px solid transparent;
+ border-left: 20px solid black;
+ border-right: 20px solid black;
+ border-image: url(images/film.png) 100 round; */
+    
+    /* opacity: 0;  */
+    /* visibility: hidden;  */
+
+
+   /* HW1: Use visibility instead of opacity: 0 */ 
+   /* HW2: use border-image */
+   /* Classwork: - (1) border image, (2) :before, :after  - method 
+   
+   */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.v-guide {
+    position: absolute;
+    height: 100vh;
+    top: -50vh;
+    left:0;
+    width: 1px;
+    background-color: #555;
+}
+
+.h-guide {
+    position: absolute;
+    left: -33vw;
+    top: 0; 
+    width: 100vw;
+    height: 1px;
+    background-color: #555;
+}
